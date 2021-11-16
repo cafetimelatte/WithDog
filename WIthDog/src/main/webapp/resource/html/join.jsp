@@ -44,6 +44,7 @@
 			text-align:right;
 			padding-right:10px;
 			margin-bottom: 1px;
+			border: solid 2px;
 		}
 	</style>
 </head>
@@ -168,8 +169,8 @@
 					<input type="text" name="addr3" id="addr3"/>
 				</div>
 				<div class="join">
-					<input type="button" name="submit" value="가입"/>
-					<input type="button" name="cancel" value="취소"/>
+					<input style="background-color:#E97723; color:white; width:222px; height:45px; font-size:17px" type="button" name="submit" value="가입"/>
+					<input style="background-color:#E97723; color:white; width:222px; height:45px; font-size:17px" type="button" name="cancel" value="취소"/>
 				</div>
 			</form>
 		</div>
