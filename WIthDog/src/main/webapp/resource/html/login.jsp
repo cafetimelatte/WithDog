@@ -3,7 +3,6 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-<meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WithDog</title>
@@ -78,7 +77,7 @@
 	        <h3 class=""><span>로그인</span></h3>
 	        <p class="h21_h3_line_c"></p>
 	        <p class="h21_h3_text_c">
-	        	<div style="float: left; margin-left: 470px"><img src="./resources/images/KakaoTalk_20211025_1600145711.png" style="width:100px; height:100px"/></div>
+	        	<div style="float: left; margin-left: 470px"><img src="../images/KakaoTalk_20211025_1600145711.png" style="width:100px; height:100px"/></div>
 	        	<div><input type="text" name="email" id="email" placeholder="Email" style="width:190px; height:40px; margin: 0 0 8px 5px"><br/>
 				<input type="password" name="pw" id="pw" placeholder="Password" style="width:190px; height:40px; margin-left: 5px"/><br/></div><br/>
 				
