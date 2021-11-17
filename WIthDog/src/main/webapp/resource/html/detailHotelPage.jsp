@@ -1,8 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" 
-	"http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
+
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,6 +23,7 @@
     <script src="js/swiper-bundle.min.js"></script>
     <title>Document</title>
 </head>
+
 <body>
 
     <header id="header" class="pr">
@@ -68,246 +69,312 @@
             </nav>
         </div>
     </header>
+    <!-- container -->
+    <div id="Container">
+        <div class="sContainer">
 
-    <div class="sContainer">
-
-        <!-- sub m top -->
-        <div class="s21_tour_de_top">
-            <h3 class="area">바라던바다					<span>한 폭의 수채화 같은 아름다운 뷰를 품고 있는 바라던바다입니다.</span>
-            </h3>
-            <div class="s21_detail_box area pr">
-                <div class="s21_detail_img swiper-container swiper-container-initialized swiper-container-horizontal">
-                <div class="swiper-wrapper" id="swiper-wrapper-01fdaca1dc658aad" aria-live="off" style="transform: translate3d(-2004px, 0px, 0px); transition-duration: 0ms;"><p class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="4" role="group" aria-label="1 / 7" style="width: 668px;"><img src="http://appdata.hungryapp.co.kr/images/hatdog/ar/2021_11/M163695366465115193.jpeg" alt="바라던바다"></p>
-                                        <p class="swiper-slide" data-swiper-slide-index="0" role="group" aria-label="2 / 7" style="width: 668px;"><img src="http://appdata.hungryapp.co.kr/images/hatdog/ar/2021_11/M163695363199582193.jpg" alt="바라던바다"></p>
-                                             <p class="swiper-slide swiper-slide-prev" data-swiper-slide-index="1" role="group" aria-label="3 / 7" style="width: 668px;"><img src="http://appdata.hungryapp.co.kr/images/hatdog/ar/2021_11/M163695365275151193.jpg" alt="바라던바다"></p>
-                                             <p class="swiper-slide swiper-slide-active" data-swiper-slide-index="2" role="group" aria-label="4 / 7" style="width: 668px;"><img src="http://appdata.hungryapp.co.kr/images/hatdog/ar/2021_11/M163695366419933193.jpeg" alt="바라던바다"></p>
-                                             <p class="swiper-slide swiper-slide-next" data-swiper-slide-index="3" role="group" aria-label="5 / 7" style="width: 668px;"><img src="http://appdata.hungryapp.co.kr/images/hatdog/ar/2021_11/M163695366442765193.jpeg" alt="바라던바다"></p>
-                                             <p class="swiper-slide" data-swiper-slide-index="4" role="group" aria-label="6 / 7" style="width: 668px;"><img src="http://appdata.hungryapp.co.kr/images/hatdog/ar/2021_11/M163695366465115193.jpeg" alt="바라던바다"></p>
-                                         <p class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="0" role="group" aria-label="7 / 7" style="width: 668px;"><img src="http://appdata.hungryapp.co.kr/images/hatdog/ar/2021_11/M163695363199582193.jpg" alt="바라던바다"></p></div>
-                <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
-                <!-- 배너 이동 조작 -->
+            <!-- sub m top -->
+            <div class="s21_tour_de_top">
+                <h3 class="area" style="height:60px">바코홈 <span>한일부부가 운영하는 대가족 펜션, 바코홈입니다.</span>
+                </h3>
+                <div class="s21_detail_box area pr">
+                    <div class="s21_detail_img swiper-container ">
+                        <div class="swiper-wrapper">
+                            <p class="swiper-slide"><img src="http://appdata.hungryapp.co.kr/images/hatdog/ar/2021_11/M163705031010573193.jpeg" alt="바코홈"></p>
+                            <p class="swiper-slide"><img src="http://appdata.hungryapp.co.kr/images/hatdog/ar/2021_11/M163705031029984193.jpg" alt="바코홈"></p>
+                            <p class="swiper-slide"><img src="http://appdata.hungryapp.co.kr/images/hatdog/ar/2021_11/M163705031059134193.jpg" alt="바코홈"></p>
+                            <p class="swiper-slide"><img src="http://appdata.hungryapp.co.kr/images/hatdog/ar/2021_11/M163705031894752193.jpeg" alt="바코홈"></p>
+                            <p class="swiper-slide"><img src="http://appdata.hungryapp.co.kr/images/hatdog/ar/2021_11/M163705031939589193.jpeg" alt="바코홈"></p>
+                        </div>
+                    </div>
+                    	
+                    <!-- 배너 이동 조작 -->
                     <div class="s21_today_arrow pa" style="z-index:9">
                         <button type="button" class="button_stop" onclick="$(this).hide();$('.button_start').show();swiper_main.autoplay.stop();">정지</button>
-                <button type="button" class="button_start" onclick="$(this).hide();$('.button_stop').show();swiper_main.autoplay.start();">재생</button>
-                        <p class="swiper-pagination4 swiper-pagination-fraction"><span class="swiper-pagination-current f_orange">3</span><span class="op30"> / </span><span class="swiper-pagination-total">5</span></p>
-                        <div><button type="button" class="button_prev" tabindex="0" aria-label="Previous slide" aria-controls="swiper-wrapper-01fdaca1dc658aad">이전</button><button type="button" class="button_next" tabindex="0" aria-label="Next slide" aria-controls="swiper-wrapper-01fdaca1dc658aad">다음</button></div>
+                        <button type="button" class="button_start" onclick="$(this).hide();$('.button_stop').show();swiper_main.autoplay.start();">재생</button>
+                        <p class="swiper-pagination4"><span class="f_orange">1</span><span class="op30">/</span><span>8</span></p>
+                        <div><button type="button" class="button_prev">이전</button><button type="button" class="button_next">다음</button></div>
                     </div>
-               <!--// 배너 이동 조작 -->
+                    <!--// 배너 이동 조작 -->
 
-                <div class="s21_detail_tbox">
-                    <!-- 우측 정보 s -->
-                    <ul class="s21_detail_twrap">	
-                        <li>
-                            <div class="s21_sns">
-                                <a id="like"><img src="http://appdata.hungryapp.co.kr/images/hatdog/img/pc_img/common/icon_theart_off2.png" alt="좋아요"></a>
-                                <a id="book"><img src="http://appdata.hungryapp.co.kr/images/hatdog/img/pc_img/common/icon_tstar_off.png" alt="즐겨찾기"></a>
-                                <!--<img src="http://appdata.hungryapp.co.kr/images/hatdog/img/pc_img/common/icon_sns_link.png" alt="공유" class="s21_gong">공유
-                                <a href="#"><img src="http://appdata.hungryapp.co.kr/images/hatdog/img/pc_img/common/icon_sns_f.png" alt="페이스북"></a>
-                                <a id="kakao-link-btn"><img src="http://appdata.hungryapp.co.kr/images/hatdog/img/pc_img/common/icon_sns_k.png" alt="카카오톡"></a>//-->
-                                <!-- 2021.01.06 수정 -->
-                                <div class="popup" onclick="myFunctionSns()">
-                                    <img src="http://appdata.hungryapp.co.kr/images/hatdog/img/pc_img/common/ico_snsshare2.png" alt="공유">
-                                      <span class="popuptext" id="myPopupSns">
-                                      <script type="text/javascript">
-function sendSns(sns, url, txt) {
-    var o;
-//		var _url = "intent://?url=" + encodeURIComponent(url) + "#Intent;scheme=mobitalk;package=com.ha.mobitalk;end";
-//              var _url = "intent://?url=" + encodeURIComponent(url) + "#Intent;scheme=hatdog;package=com.ha.hatdog;end";
-    var _url = encodeURIComponent(url);
-    var _txt = encodeURIComponent(txt);
-    var _br  = encodeURIComponent('\r\n');
-
-    switch(sns) {
-        case 'facebook':
-//				alert(_url);
-            o = {
-                method : 'popup',
-                url    : 'http://www.facebook.com/sharer/sharer.php?u=' + _url
-            };
-            break;
-        case 'twitter':
-            o = {
-                method : 'popup',
-                url    : 'http://twitter.com/intent/tweet?text=' + _txt + '&url=' + _url
-            };
-            break;
-        case 'band':
-            o = {
-                method  : 'web2app',
-                param   : 'bandapp://create/post?text='+ _txt + _br + _url +'&route='+_url,
-                url : 'http://www.band.us/plugin/share?body='+_txt+'&route='+_url,
-                g_store : 'market://details?id=com.nhn.android.band',
-                a_proto : 'bandapp://',
-                g_proto : 'scheme=bandapp;package=com.nhn.android.band',
-                package : 'com.nhn.android.band'
-                
-            };
-            break;
-    case 'line':
-            o = {
-                method  : 'web2app',
-                param   : 'msg/text/?' + _txt + _br + _url,
-                url : 'http://www.band.us/plugin/share?body='+_txt+'&route='+_url,
-                g_store : 'market://details?id=jp.naver.line.android&hl=ko',
-                a_proto : 'http://line.me/R/',
-                g_proto : 'scheme=line;package=jp.naver.line.android',
-                package : 'jp.naver.line.android'
-
-            };
-            break;
-            case 'naver':
-            o = {
-                method  : 'popup',
-           param   : 'http://share.naver.com/web/shareView.nhn?url='+_url+'&&title='+_txt,
-                //param   : 'posting?post=' + _txt + _br + _url + '&apiver=1.0&appver=2.0&appid=cd1dcbd30b55cbc0a7a4bcafc7e70f49&appname=' + encodeURIComponent('mobitalk'),
-                url    : 'http://share.naver.com/web/shareView.nhn?url='+_url+'&&title='+_txt,
-                a_store : 'itms-apps://itunes.apple.com/app/id486244601?mt=8',
-                g_store : 'market://details?id=com.nhn.android.blog',
-                a_proto : 'https://share.naver.com/web/shareView.nhn?url='+_url+'&title='+_txt,
-                g_proto : 'scheme=naverblog;package=com.nhn.android.blog',
-                package : 'com.nhn.android.blog'
-            };
-            break;
-        default:
-            alert('지원하지 않는 SNS입니다.');
-            return false;
-    }
-
-    
-
-    switch(o.method) {
-        case 'popup':
-            window.open(o.url);
-            break;
-        case 'web2app':
-            if (navigator.userAgent.match(/android/i) == "android" || navigator.userAgent.match(/android/i) == "Android") {
-                // Android
-                if(window.android.isInstalled(o.package)){
-//							setTimeout(function() { window.open(o.param); }, 100);
-                        setTimeout(function() { window.open(o.url); }, 100);
-                }else{
-                        setTimeout(function() { location.href = o.g_store; }, 200);
-                }
-            }
-            else if (navigator.userAgent.match(/com.ha.ioshatdog/i) == "com.ha.ioshatdog") {
-                // Apple
-                //setTimeout(function() { location.href = o.a_store; }, 200);
-                setTimeout(function() { window.open(o.url); }, 100);
-                
-            }
-            else {
-                alert('이 기능은 모바일에서만 사용할 수 있습니다.');
-            }
-            break;
-    }
-}
-
-</script>
-<script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
-<a href="javascript:sendSns('facebook',  'http://hatdog.co.kr/snsLink.php?idx=8888', '[바라던바다] 한 폭의 수채화 같은 아름다운 뷰를 품고 있는 바라던바다입니다.')"><img src="http://appdata.hungryapp.co.kr/images/hatdog/img/pc_img/common/icon_sns_f.png" alt="페이스북"></a>
-<a id="kakao-link-btn"><img src="http://appdata.hungryapp.co.kr/images/hatdog/img/pc_img/common/icon_sns_k.png" alt="카카오톡"></a>
-<a id="btn1"><img src="http://appdata.hungryapp.co.kr/images/hatdog/img/pc_img/common/icon_sns_l.png" alt="url복사"></a>
-<script type="text/javascript">
-//Kakao.cleanup();
-// 사용할 앱의 JavaScript 키를 설정해 주세요.
-Kakao.init('cd1dcbd30b55cbc0a7a4bcafc7e70f49');
-    Kakao.Link.createScrapButton({
-  container: '#kakao-link-btn',
-  requestUrl: 'http://hatdog.co.kr/snsLink.php?idx=8888'
-});
-// 사용할 앱의 JavaScript 키를 설정해 주세요.
-function shareStory() {
-    Kakao.Story.share({
-        url  : 'http://hatdog.co.kr/snsLink.php?idx=8888',
-        text : '[바라던바다] 한 폭의 수채화 같은 아름다운 뷰를 품고 있는 바라던바다입니다.'
-    });
-}
-
-//현재 url 복사(하트독 pc에서 사용)
-function copyToClipboard(val) {
-var t = document.createElement("textarea");
-document.body.appendChild(t);
-t.value = val;
-t.select();
-document.execCommand('copy');
-document.body.removeChild(t);
-}
-$('#btn1').click(function() {
-copyToClipboard('http://hatdog.co.kr/pc_hatdog/?m1Code=ar_info&m2Code=ar_info&mode=view&idx=8888');
-alert('URL이 복사 되었습니다. 원하시는 곳에 붙여넣기 해 주세요.');
-});
-</script>
-<script type="text/javascript" src="//developers.band.us/js/share/band-button.js?v=20160405"></script>											 
-                                      </span>
-                                </div>
-
-                                <script>
-                                // When the user clicks on div, open the popup
-                                function myFunctionSns() {
-                                  var popup = document.getElementById("myPopupSns");
-                                  popup.classList.toggle("show");
-                                }
-                                </script>
-                                <!--// 2021.01.06 수정 -->
-
-                            </div>
-                        </li>
-                        <li><dl><dt>주소</dt><dd>제주특별자치도 제주시 구좌읍 김월남길 111 </dd></dl></li>
-                                                    <li><dl><dt>연락처</dt><dd>010-9951-8096</dd></dl></li>
-                                                         <li><dl><dt>홈페이지</dt><dd><a href="http://" target="_blank"></a></dd></dl></li>
-                        <li><dl><dt>영업시간</dt><dd title=""><a></a></dd></dl></li>
-
-                                                        <li><dl><dt>기타</dt><dd>-</dd></dl></li>
-                                                    
-                    </ul>
-                    <!-- //우측 정보 e -->
-                                            <!-- 하단 분류 s -->
-                    <div class="s21_detail_top_btm">
-                        <dl class="mgl_0">
-                            <dt>
-                        
-                            <img src="http://appdata.hungryapp.co.kr/images/hatdog/img/travel/icon_accommodation_line.png?ver=2"></dt>
-                            <dd>펜션</dd>
-                        </dl>
-                        <dl>
+                    <div class="s21_detail_tbox">
+                        <!-- 우측 정보 s -->
+                        <ul class="s21_detail_twrap">
+                            <li>
+                                <dl>
+                                    <dt>주소</dt>
+                                    <dd>제주특별자치도 서귀포시 성산읍 일주동로 5153 </dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>연락처</dt>
+                                    <dd>010-8411-8017</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>홈페이지</dt>
+                                    <dd><a href="https://bacohome.modoo.at/" target="_blank">https://bacohome.modoo.at/</a></dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>영업시간</dt>
+                                    <dd title=""><a></a></dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>기타</dt>
+                                    <dd>-</dd>
+                                </dl>
+                            </li>
+                        </ul>
+                        <!-- //우측 정보 e -->
+                        <!-- 하단 분류 s -->
+                        <div class="s21_detail_top_btm">
+                            <dl class="mgl_0">
                                 <dt>
-                                                                        <img src="http://appdata.hungryapp.co.kr/images/hatdog/img/travel/icon_dog_line.png?ver=2"></dt>
-                            <dd>중형견</dd>
-                        </dl>
-                        <dl>
-                                <dt><img src="http://appdata.hungryapp.co.kr/images/hatdog/img/travel/icon_scale_line.png?ver=2" alt="숙소"></dt>
-                            <dd>10kg</dd>
-                        </dl>
-                        <dl class="mgr_0">
-                                <dt><img src="http://appdata.hungryapp.co.kr/images/hatdog/img/travel/icon_moneyadd_line.png?ver=2" alt="숙소"></dt>
-                            <dd>20,000</dd>
-                        </dl>
+                                    <img src="http://appdata.hungryapp.co.kr/images/hatdog/img/travel/icon_accommodation_line.png?ver=2" /></dt>
+                                <dd>펜션</dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <img src="http://appdata.hungryapp.co.kr/images/hatdog/img/travel/icon_dog_line.png?ver=2" /></dt>
+                                <dd>소형견</dd>
+                            </dl>
+                            <dl>
+                                <dt><img src="http://appdata.hungryapp.co.kr/images/hatdog/img/travel/icon_scale_line.png?ver=2" alt="숙소" /></dt>
+                                <dd>5kg</dd>
+                            </dl>
+                            <dl class="mgr_0">
+                                <dt><img src="http://appdata.hungryapp.co.kr/images/hatdog/img/travel/icon_moneyadd_line.png?ver=2" alt="숙소" /></dt>
+                                <dd>문의</dd>
+                            </dl>
+                        </div>
+                        <!--// 하단 분류 e -->
                     </div>
-                    <!--// 하단 분류 e -->
-                                        </div>
-
+                </div>
             </div>
-        </div>
-        <!--// sub m top -->
+            <!--// sub m top -->
 
-        <!-- sub m btm -->
-        <div class="s21_tour_de_btm area">
-            <div class="s21_tab">
-                              <button class="tablinks active" onclick="openCity(event, 'info')" id="defaultOpen">기본정보</button>
-                              <button class="tablinks" onclick="openCity(event, 'map_info')">위치정보</button>
-              <button class="tablinks" id="reviewOpen" onclick="openCity(event, 'review')">리뷰</button>
-            </div>
-            
-            <!-- 기본정보 s -->
-            <div id="info" class="s21_tabcontent" style="display: block;">
+            <!-- sub m btm -->
+            <div class="s21_tour_de_btm area">
+                <div class="s21_tab">
+                    <button class="tablinks" onclick="openCity(event, 'info')" id="defaultOpen">기본정보</button>
+                    <button class="tablinks" id="reviewOpen" onclick="openCity(event, 'review')">리뷰</button>
+                </div>
+
+                <!-- 기본정보 s -->
+                <div id="info" class="s21_tabcontent">
+                    <div class="s21_tabcontent_left">
+                        <div class="">
+                            <img src="http://appdata.hungryapp.co.kr/images/hatdog/upload/202111/M163705024257736193.jpg" style="max-width: 100%; image-orientation: from-image" alt="" />
+                            <img src="http://appdata.hungryapp.co.kr/images/hatdog/upload/202111/M163705024616715193.jpg" style="max-width: 100%; image-orientation: from-image" alt="" /><br />
+                            <img src="http://appdata.hungryapp.co.kr/images/hatdog/upload/202111/M163705025735263193.jpg" style="max-width: 100%; image-orientation: from-image" alt="" /><br />
+                            <img src="http://appdata.hungryapp.co.kr/images/hatdog/upload/202111/M163705026259957193.jpg" style="max-width: 100%; image-orientation: from-image" alt="" /><br />
+                            <br />
+                        </div>
+                    </div>
+
+                    <!-- 오른쪽 내용들 s-->
+                    <div class="s21_tabcontent_right">
+                        <div class="s21_tabcontent_rightbox">
+
+                            <!-- 숙박예약 있을시에 button s -->
+                            <div class="s21_tabcontent_rbtn">
+                                <button type="button" class="bg_orange2" onclick="alert('로그인 후 이용해주세요.');return;//location.href='?m1Code=etc&m2Code=join';;location.href='?m1Code=ar_info&m2Code=inquiry&idx=8892&inquiry_tab=2'">수정요청</button>
+                            </div>
+                            <!--// 숙박예약 있을시에 button e -->
+
+                            <!-- 숙박예약 있을시에 button s
+							<div class="s21_tabcontent_rbtn">
+								<button type="button" class="bg_mgray">수정요청</button>
+							</div>
+							// 숙박예약 있을시에 button e -->
+
+                            <!-- 공통주의사항 s -->
+                            <div class="s21_tabcontent_more">
+                                <div class="s21_tabcontent_more_tit">
+                                    <h4>공통 <span>주의사항</span></h4>
+                                </div>
+                                <p class="s21_tabcontent_more_spot">
+                                    업체의 사정으로 가격, 시설물 등을 포함한 애견정책이 예고 없이 변경될 수 있습니다.<br>특정 관광지는 특정 때에(성수기 등) 애견동반이 어려울 수 있습니다.
+                                    <br><span>따라서, 방문 전 꼭 전화로 확인 부탁드립니다.</span>
+                                </p>
+                            </div>
+                            <!--// 공통주의사항 e -->
+
+                            <!-- 요청배너 s -->
+                            <div class="s21_tabcontent_rbtn_btm">
+                                <button type="button" class="bg_mgray" onclick="alert('로그인 후 이용해주세요.');return;//location.href='?m1Code=etc&m2Code=join'; location.replace('?m1Code=ar_info&m2Code=shop_add&shopadd_tab=0&ar_idx=8892')">장소 및 업체 추가 요청</button>
+                            </div>
+                            <!-- 요청배너 e -->
+
+                        </div>
+                    </div>
+
+                    <!-- 오른쪽 내용들 e-->
+
+                </div>
                 
-                <div class="s21_tabcontent_left">
-                    <div class="">
-                                                        <img src="http://appdata.hungryapp.co.kr/images/hatdog/upload/202111/M163695355953311193.jpg" style="max-width: 100%; image-orientation: from-image" alt="">
-<img src="http://appdata.hungryapp.co.kr/images/hatdog/upload/202111/M163695357146027193.jpg" style="max-width: 100%; image-orientation: from-image" alt=""><br>
-<img src="http://appdata.hungryapp.co.kr/images/hatdog/upload/202111/M163695357516303193.jpg" style="max-width: 100%; image-orientation: from-image" alt=""><br>
-<img src="http://appdata.hungryapp.co.kr/images/hatdog/upload/202111/M163695358619370193.jpg" style="max-width: 100%; image-orientation: from-image" alt=""><br>
-<br>								
+                <!--// 기본정보 e -->
+
+                <!-- 리뷰 s -->
+                
+                <div id="review" class="s21_tabcontent">
+                    <input type="hidden" id="rpage" name="page" value="1" />
+                    <input type="hidden" id="ppage" name="page" value="1" />
+                    <div class="s21_tabcontent_left">
+                    
+                        <!-- 유저리뷰s -->
+                        
+                        <div class="s21_review_box">
+                            <div class="s21_review_tit pr">
+                                <h5>유저리뷰 <span id="review_total">20</span></h5>
+                                <button type="button" class="s21_review_wbtn pa" onclick="alert('로그인 후 이용해주세요.');return;//location.href='?m1Code=etc&m2Code=join';review_set('in','')">리뷰작성</button>
+                            </div>
+                            <div class="s21_review_listb" id="review_list">
+                            </div>
+
+                            <!-- more btn s -->
+                            <span class="addreview_1"><a id="addreview">
+                                    <p class="s21_review_more">+ 더보기</p>
+                                </a></span>
+                            <!--// more btn e -->
+
+                        </div>
+                        
+                        <!--// 유저리뷰e -->
+
+                        <!-- 리뷰작성 팝업 s -->
+                        <div id="id01" class="modal">
+                            <span onclick="document.getElementById('id01').style.display='none'; " class="close" title="Close Modal">×</span>
+                            <form class="modal-content" id="checkForm" name="checkForm">
+                                <input type="hidden" name="m1Code" value="ar_info">
+                                <input type="hidden" name="m2Code" value="ar_info">
+                                <input type="hidden" name="bcode" id="bcode" value="review">
+                                <input type="hidden" name="idx" value="8892">
+                                <input type="hidden" id="r_idx" name="r_idx">
+                                <input type="hidden" id="r_mode" name="mode" value="in">
+                                <div class="s21_review_writeform">
+                                    <h1>리뷰 작성</h1>
+
+                                    <textarea class="textarea3" name="contents" id="contents" placeholder="리뷰 내용을 입력해 주세요."></textarea>
+                                    <div class="s21_form_photo"><img src="http://appdata.hungryapp.co.kr/images/hatdog/img/common/icon_photo_l.png" alt="photo" onclick="check();"></div>
+                                    <form id="imgForm" name="imgForm">
+                                        <div class="s21_upload_img" id="imgupload">
+                                        </div>
+                                        <input type="file" id="upload_file" name="upload_file" style="display:none;" accept="image/*" />
+                                    </form>
+                                    <div class="clearfix">
+                                        <button type="button" id="mul_input_submit" xonclick="document.getElementById('id01').style.display='none'" class="deletebtn">확인</button>
+                                        <button type="button" onclick="$('html').css('overflow','scroll');document.getElementById('id01').style.display='none'" class="cancelbtn">취소</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                        <script>
+                            // Get the modal
+                            var modal = document.getElementById('id01');
+
+                            // When the user clicks anywhere outside of the modal, close it
+                            window.onclick = function(event) {
+                                if (event.target == modal) {
+                                    modal.style.display = "none";
+                                }
+                            }
+                        </script>
+                        
+                        <!--// 리뷰작성 팝업 e -->
+                        
+                    </div>
+
+                    <!-- 오른쪽 내용들 s-->
+                    <div class="s21_tabcontent_right">
+                        <div class="s21_tabcontent_rightbox">
+
+                            <!-- 숙박예약 있을시에 button s -->
+                            <div class="s21_tabcontent_rbtn">
+                                <button type="button" class="bg_orange2" onclick="alert('로그인 후 이용해주세요.');return;//location.href='?m1Code=etc&m2Code=join';;location.href='?m1Code=ar_info&m2Code=inquiry&idx=8892&inquiry_tab=2'">수정요청</button>
+                            </div>
+                            <!--// 숙박예약 있을시에 button e -->
+
+                            <!-- 숙박예약 있을시에 button s
+							<div class="s21_tabcontent_rbtn">
+							<button type="button" class="bg_mgray">수정요청</button>
+							</div>
+							// 숙박예약 있을시에 button e -->
+
+
+                            <!-- 공통주의사항 s -->
+                            <div class="s21_tabcontent_more">
+                                <div class="s21_tabcontent_more_tit">
+                                    <h4>공통 <span>주의사항</span></h4>
+                                </div>
+                                <p class="s21_tabcontent_more_spot">
+                                    업체의 사정으로 가격, 시설물 등을 포함한 애견정책이 예고 없이 변경될 수 있습니다.<br>특정 관광지는 특정 때에(성수기 등) 애견동반이 어려울 수 있습니다.
+                                    <br><span>따라서, 방문 전 꼭 전화로 확인 부탁드립니다.</span>
+                                </p>
+                            </div>
+                            <!--// 공통주의사항 e -->
+
+                            <!-- 요청배너 s -->
+                            <div class="s21_tabcontent_rbtn_btm">
+                                <button type="button" class="bg_mgray" onclick="alert('로그인 후 이용해주세요.');return;//location.href='?m1Code=etc&m2Code=join'; location.replace('?m1Code=ar_info&m2Code=shop_add&shopadd_tab=0&ar_idx=8892')">장소 및 업체 추가 요청</button>
+                            </div>
+                            <!-- 요청배너 e -->
+
+                        </div>
+                    </div>
+                    <!-- 오른쪽 내용들 e-->
+
+                </div>
+                <!--// 리뷰 e -->
+
+                <script>
+                    function openCity(evt, cityName) {
+                        var i, tabcontent, tablinks;
+                        tabcontent = document.getElementsByClassName("s21_tabcontent");
+                        for (i = 0; i < tabcontent.length; i++) {
+                            tabcontent[i].style.display = "none";
+                        }
+                        tablinks = document.getElementsByClassName("tablinks");
+                        for (i = 0; i < tablinks.length; i++) {
+                            tablinks[i].className = tablinks[i].className.replace(" active", "");
+                        }
+                        document.getElementById(cityName).style.display = "block";
+                        evt.currentTarget.className += " active";
+                        if (cityName == "map_info") {
+                            kakaomap_init();
+                        }
+
+                        if ($(".s21_tab").position().top == 0) { //상단메뉴탭 탑이동 후 다른 탭 클릭시 컨텐츠 첫부분 보이게 수정 
+                            if (cityName == "info") {
+                                class_position = ".s21_de_food_img_st";
+                            } else if (cityName == "map_info") {
+                                class_position = ".s21_map_twrap";
+                            } else {
+                                class_position = ".s21_review_tit";
+                            }
+                            $('html').animate({
+                                scrollTop: $(class_position).position().top + 40
+                            }, 0);
+                        }
+
+                    }
+                    // Get the element with id="defaultOpen" and click on it
+                    document.getElementById("defaultOpen").click();
+                </script>
+            </div>
+            <!--// sub m btm -->
+
+        </div>
+    </div>
+
+    <!-- //container -->
 
     <footer style="margin-bottom: auto;">
         <div id="footer">
@@ -328,4 +395,5 @@ alert('URL이 복사 되었습니다. 원하시는 곳에 붙여넣기 해 주�
     </footer>
 
 </body>
+
 </html>
