@@ -33,7 +33,7 @@
                     <p class="top_text">반려견과 함께 하트독에 오신것을 환영 합니다.</p>
                     <ul>
                         <li class="line">|</li>
-                        <li class=""><a href="">로그인</a></li>
+                        <li class=""><a href="">관리자</a></li>
                         <li class="line">|</li>
                         <li class=""><a href="">마이페이지</a></li>
                         <li class="line">|</li>
@@ -75,7 +75,7 @@
 
             <!-- sub m top -->
             <div class="s21_tour_de_top">
-                <h3 class="area" style="height:60px">바코홈 <span>한일부부가 운영하는 대가족 펜션, 바코홈입니다.</span>
+                <h3 class="area" style="height:60px">숙소명:<input type="text" value="바코홈"><span>소개글:<input style="width:400px"type="text" value="한일부부가 운영하는 대가족 펜션, 바코홈입니다."></span>
                 </h3>
                 <div class="s21_detail_box area pr">
                     <div class="s21_detail_img swiper-container ">
@@ -86,8 +86,33 @@
                             <p class="swiper-slide"><img src="http://appdata.hungryapp.co.kr/images/hatdog/ar/2021_11/M163705031894752193.jpeg" alt="바코홈"></p>
                             <p class="swiper-slide"><img src="http://appdata.hungryapp.co.kr/images/hatdog/ar/2021_11/M163705031939589193.jpeg" alt="바코홈"></p>
                         </div>
+                        <form style="margin-top:10px;">
+                        	<div style="display:inline-block;width:80%;">
+	                        	<label for="img1">
+	                        		<img style="min-height:0;width:20%;max-height:80px" src="http://appdata.hungryapp.co.kr/images/hatdog/ar/2021_11/M163705031010573193.jpeg" alt="바코홈">
+	                        	</label>
+	                        	<input type="checkbox" id="img1">
+	                        	<label for="img2">
+	                        		<img style="min-height:0;width:20%;max-height:80px" src="http://appdata.hungryapp.co.kr/images/hatdog/ar/2021_11/M163705031029984193.jpg" alt="바코홈">
+	                        	</label>
+	                        	<input type="checkbox" id="img2">
+	                        	<label for="img3">
+	                        		<img style="min-height:0;width:20%;max-height:80px" src="http://appdata.hungryapp.co.kr/images/hatdog/ar/2021_11/M163705031059134193.jpg" alt="바코홈">
+	                        	</label>
+	                        	<input type="checkbox" id="img3">
+	                        	<label for="img4">
+	                        		<img style="min-height:0;width:20%;max-height:80px" src="http://appdata.hungryapp.co.kr/images/hatdog/ar/2021_11/M163705031059134193.jpg" alt="바코홈">
+	                        	</label>
+	                        	<input type="checkbox" id="img4">
+	                        </div>
+	                        <div style="display:inline-block;width:17%">
+		                        <label style="display:block;background-color: green;font-size:15px;color:white;padding:4px;" for="upload">이미지 업로드</label><input style="display: none" type="file" name="img" id="upload">
+		                        <label style="margin:5px 0;display:block;background-color: red;font-size:15px;color:white;padding:4px;" for="delete">이미지 삭제</label><input style="display: none" type="button" name="submit" id="delete">
+	                        </div>
+                        </form>
                     </div>
                     	
+                    
                     <!-- 배너 이동 조작 -->
                     <div class="s21_today_arrow pa" style="z-index:9">
                         <button type="button" class="button_stop" onclick="$(this).hide();$('.button_start').show();swiper_main.autoplay.stop();">정지</button>
@@ -96,6 +121,7 @@
                         <div><button type="button" class="button_prev">이전</button><button type="button" class="button_next">다음</button></div>
                     </div>
                     <!--// 배너 이동 조작 -->
+                    
 
                     <div class="s21_detail_tbox">
                         <!-- 우측 정보 s -->
@@ -103,31 +129,31 @@
                             <li>
                                 <dl>
                                     <dt>주소</dt>
-                                    <dd>제주특별자치도 서귀포시 성산읍 일주동로 5153 </dd>
+                                    <dd><input style="width:400px" type="text" value="제주특별자치도 서귀포시 성산읍 일주동로 5153 "></dd>
                                 </dl>
                             </li>
                             <li>
                                 <dl>
                                     <dt>연락처</dt>
-                                    <dd>010-8411-8017</dd>
+                                    <dd><input style="width:400px" type="text" value="010-8411-8017	"></dd>
                                 </dl>
                             </li>
                             <li>
                                 <dl>
                                     <dt>홈페이지</dt>
-                                    <dd><a href="https://bacohome.modoo.at/" target="_blank">https://bacohome.modoo.at/</a></dd>
+                                    <dd><input style="width:400px" type="text" value="https://bacohome.modoo.at/"></dd>
                                 </dl>
                             </li>
                             <li>
                                 <dl>
                                     <dt>영업시간</dt>
-                                    <dd title=""><a></a></dd>
+                                    <dd title=""><input style="width:400px" type="text" value=""></dd>
                                 </dl>
                             </li>
                             <li>
                                 <dl>
                                     <dt>기타</dt>
-                                    <dd>-</dd>
+                                    <dd><input style="width:400px" type="text" value=""></dd>
                                 </dl>
                             </li>
                         </ul>
@@ -142,15 +168,15 @@
                             <dl>
                                 <dt>
                                     <img src="http://appdata.hungryapp.co.kr/images/hatdog/img/travel/icon_dog_line.png?ver=2" /></dt>
-                                <dd>소형견</dd>
+                                <dd><input style="width:50px" type="text" value="소형견"></dd>
                             </dl>
                             <dl>
                                 <dt><img src="http://appdata.hungryapp.co.kr/images/hatdog/img/travel/icon_scale_line.png?ver=2" alt="숙소" /></dt>
-                                <dd>5kg</dd>
+                                <dd><input style="width:50px" type="text" value="5kg"></dd>
                             </dl>
                             <dl class="mgr_0">
                                 <dt><img src="http://appdata.hungryapp.co.kr/images/hatdog/img/travel/icon_moneyadd_line.png?ver=2" alt="숙소" /></dt>
-                                <dd>문의</dd>
+                                <dd><input style="width:50px" type="text" value="문의"></dd>
                             </dl>
                         </div>
                         <!--// 하단 분류 e -->
@@ -184,7 +210,7 @@
 
                             <!-- 숙박예약 있을시에 button s -->
                             <div class="s21_tabcontent_rbtn">
-                                <button type="button" class="bg_orange" onclick="alert('로그인 후 이용해주세요.');return;//location.href='?m1Code=etc&m2Code=join';;location.href='?m1Code=ar_info&m2Code=inquiry&idx=8892&inquiry_tab=2'">숙박예약</button>
+                                <button type="button" class="bg_orange" onclick="alert('로그인 후 이용해주세요.');return;//location.href='?m1Code=etc&m2Code=join';;location.href='?m1Code=ar_info&m2Code=inquiry&idx=8892&inquiry_tab=2'">올리기</button>
                             </div>
                             <!--// 숙박예약 있을시에 button e -->
 
@@ -205,13 +231,19 @@
                                 </p>
                             </div>
                             <!--// 공통주의사항 e -->
-
-                            <!-- 요청배너 s -->
+<!-- 
+                            요청배너 s
                             <div class="s21_tabcontent_rbtn_btm">
                                 <button type="button" class="bg_mgray" onclick="alert('로그인 후 이용해주세요.');return;//location.href='?m1Code=etc&m2Code=join'; location.replace('?m1Code=ar_info&m2Code=shop_add&shopadd_tab=0&ar_idx=8892')">장소 및 업체 추가 요청</button>
                             </div>
-                            <!-- 요청배너 e -->
-
+                            요청배너 e
+ -->						
+                            <div class="s21_tabcontent_more">
+							<form style="padding-top: 10px;text-align: center">
+								<label style="display:block;background-color: green;font-size:15px;color:white;padding:20px;" for="upload">상세페이지 업로드</label><input style="display: none" type="file" name="img" id="upload">
+								<label style="margin:5px 0;display:block;background-color: red;font-size:15px;color:white;padding:20px;" for="delete">상세페이지 삭제</label><input style="display: none" type="button" name="img" id="delete">
+							</form>
+							</div>
                         </div>
                     </div>
 
@@ -298,7 +330,7 @@
 
                             <!-- 숙박예약 있을시에 button s -->
                             <div class="s21_tabcontent_rbtn">
-                                                            <button type="button" class="bg_orange" onclick="alert('로그인 후 이용해주세요.');return;//location.href='?m1Code=etc&m2Code=join';;location.href='?m1Code=ar_info&m2Code=inquiry&idx=8892&inquiry_tab=2'">숙박예약</button>
+                                                            <button type="button" class="bg_orange" onclick="alert('로그인 후 이용해주세요.');return;//location.href='?m1Code=etc&m2Code=join';;location.href='?m1Code=ar_info&m2Code=inquiry&idx=8892&inquiry_tab=2'">올리기</button>
                             </div>
                             <!--// 숙박예약 있을시에 button e -->
 
@@ -320,13 +352,13 @@
                                 </p>
                             </div>
                             <!--// 공통주의사항 e -->
-
-                            <!-- 요청배너 s -->
+<!-- 
+                            요청배너 s
                             <div class="s21_tabcontent_rbtn_btm">
                                 <button type="button" class="bg_mgray" onclick="alert('로그인 후 이용해주세요.');return;//location.href='?m1Code=etc&m2Code=join'; location.replace('?m1Code=ar_info&m2Code=shop_add&shopadd_tab=0&ar_idx=8892')">장소 및 업체 추가 요청</button>
                             </div>
-                            <!-- 요청배너 e -->
-
+                            요청배너 e
+ -->
                         </div>
                     </div>
                     <!-- 오른쪽 내용들 e-->

@@ -179,6 +179,13 @@
 .s21_detail_tbox .s21_detail_twrap li dd{font-size:14px;color:#a1a1a1;line-height:18px;text-align:left;overflow:hidden;text-overflow:ellipsis;-webkit-line-clamp:1; -webkit-box-orient:vertical; word-break:break-all;overflow:hidden;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:1}
 .s21_detail_tbox .s21_detail_twrap li dd a{font-size:14px;color:#a1a1a1;text-align:left;}
 
+.s21_detail_tbox .s21_detail_twrap_mod{width:100%;padding:0px 0}
+.s21_detail_tbox .s21_detail_twrap_mod li{float:left;width:100%;padding:18px 0;border-bottom:1px solid #dddbd6;}
+.s21_detail_tbox .s21_detail_twrap_mod li dl{width:100%;}
+.s21_detail_tbox .s21_detail_twrap_mod li dt{float:left;width:18%;font-size:16px;color:#626262;padding-left:3px;text-align:left;}
+.s21_detail_tbox .s21_detail_twrap_mod li dd{float:left;width:31%;font-size:14px;color:#a1a1a1;line-height:18px;text-align:left;overflow:hidden;text-overflow:ellipsis;-webkit-line-clamp:1; -webkit-box-orient:vertical; word-break:break-all;overflow:hidden;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:1}
+.s21_detail_tbox .s21_detail_twrap_mod li dd a{font-size:14px;color:#a1a1a1;text-align:left;}
+
 .s21_detail_twrap_sns{padding:10px 0 ! important}
 
 .s21_sns{text-align:right;width:auto;float:right;}

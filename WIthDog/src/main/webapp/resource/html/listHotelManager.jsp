@@ -32,7 +32,7 @@
                     <p class="top_text">반려견과 함께 WithDog에 오신것을 환영 합니다.</p>
                     <ul>
                         <li class="line">|</li>
-                        <li class=""><a href="">로그인</a></li>
+                        <li class=""><a href="">관리자</a></li>
                         <li class="line">|</li>
                         <li class=""><a href="">마이페이지</a></li>
                         <li class="line">|</li>
@@ -70,19 +70,30 @@
     </header>
 
     <div class="s21_tour_list area">
+    	
         <!-- 순 -->
         <div class="s21_tour_sun" style="margin-top:30px">
+        	<div style="float:left">
+	    		<select style="text-align:center;height:25px;width:60px">
+	    			<option>숙소명</option>
+	    			<option>주소명</option>
+	    		</select>
+	    		<input type="text">
+	    		<input type="button" value="검색">
+	    		<span style="display:inline-block;width:100px"></span>
+	    		<input type="button" value="숙소 추가">
+	    		<input type="button" value="선택 숙소 제거">
+	    	</div>
             <!-- 검색란 체크시 출력-->
             <a id="dtDesc" onclick="list_order('dtDesc','on')" class="s21_sun_checked">최신순</a>
-            <a id="cntReview" onclick="list_order('cntReview','on')" class="">리뷰순</a>
+            <a id="cntReview" onclick="list_order('cntReview','on')" class="">댓글순</a>
         </div>
         <!--// 순 -->
 
         <!-- 리스트 시작 -->
         <div class="s21_tour_list_box">
                     <a onclick="Store.set('ar_scroll',document.documentElement.scrollTop); href='?m1Code=ar_info&amp;m2Code=ar_info&amp;mode=view&amp;idx=8888'">
-                        <div class="s21_tour_list_conts pr">
-                            <span class="s21_reser_ok_btn pa"><img src="http://appdata.hungryapp.co.kr/images/hatdog/img/pc_img/common/icon_New2.png"></span>
+                        <div class="s21_tour_list_conts pr">                            <span class="s21_reser_ok_btn pa"><img src="http://appdata.hungryapp.co.kr/images/hatdog/img/pc_img/common/icon_New2.png"></span>
                             <dl class="s21_tour_list_photo">
                                 <dt><img src="http://appdata.hungryapp.co.kr//images/hatdog/ar/202111/1636953621_M163695362183397193.jpg/hungryapp/resize/800" alt="바라던바다 onerror=" noimage(this);"=""></dt>
                                 <dd><img src="http://appdata.hungryapp.co.kr/images/hatdog/ar/2021_11/M163695365275151193.jpg/hungryapp/resize/200" alt="바라던바다" onerror="noimage(this);"></dd>
@@ -95,6 +106,9 @@
 
                                 <div class="s21_desc" onclick="">
                                     <div class="s21_d_comment"><p class="icon_comment">댓글</p>0</div>
+                                    <div style="float:right">
+	                                    <input style="height:17px;width:17px" type="checkbox" name="chkDelete">삭제
+                                    </div>
                                </div>
                             </div>
                         </div>
@@ -115,6 +129,9 @@
 
                                 <div class="s21_desc" onclick="">
                                     <div class="s21_d_comment"><p class="icon_comment">댓글</p>0</div>
+                                    <div style="float:right">
+	                                    <input style="height:17px;width:17px" type="checkbox" name="chkDelete">삭제
+                                    </div>
                                </div>
                             </div>
                         </div>
@@ -135,6 +152,9 @@
 
                                 <div class="s21_desc" onclick="">
                                     <div class="s21_d_comment"><p class="icon_comment">댓글</p>0</div>
+                                    <div style="float:right">
+	                                    <input style="height:17px;width:17px" type="checkbox" name="chkDelete">삭제
+                                    </div>
                                </div>
                             </div>
                         </div>
@@ -155,6 +175,9 @@
 
                                 <div class="s21_desc" onclick="">
                                     <div class="s21_d_comment"><p class="icon_comment">댓글</p>0</div>
+                                    <div style="float:right">
+	                                    <input style="height:17px;width:17px" type="checkbox" name="chkDelete">삭제
+                                    </div>
                                </div>
                             </div>
                         </div>
@@ -175,6 +198,9 @@
 
                                 <div class="s21_desc" onclick="">
                                     <div class="s21_d_comment"><p class="icon_comment">댓글</p>0</div>
+                                    <div style="float:right">
+	                                    <input style="height:17px;width:17px" type="checkbox" name="chkDelete">삭제
+                                    </div>
                                </div>
                             </div>
                         </div>
@@ -195,6 +221,9 @@
 
                                 <div class="s21_desc" onclick="">
                                     <div class="s21_d_comment"><p class="icon_comment">댓글</p>0</div>
+                                    <div style="float:right">
+	                                    <input style="height:17px;width:17px" type="checkbox" name="chkDelete">삭제
+                                    </div>
                                </div>
                             </div>
                         </div>
